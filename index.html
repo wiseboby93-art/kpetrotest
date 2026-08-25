@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>행정안전부 보도자료 검색</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>행정안전부 보도자료</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="검색할 키워드를 입력하세요...">
+            <button id="searchBtn">검색</button>
+        </div>
+        <div id="resultCount" class="result-count">결과 0건</div>
+    </header>
+    <main>
+        <div id="cardContainer" class="card-container">
+            <!-- Cards will be dynamically inserted here -->
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
